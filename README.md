@@ -24,20 +24,16 @@ For more information, please install the project.
 ## Install N2PAC
 
 
-### 1. Clone the repository
+### 1. Clone or download the repository
 
-
-```bash
-cd working_directory
-git clone https://github.com/BLABLABLA
-```
+Repository: https://gitlab.com/MatthiasDeLozzo/n2pac.
 
 ### 2. Install GEMSEO with a conda environment
 
 Use one of these procedures by naming the environment **n2pac**: 
 
-- [Linux or MacOS](https://gemseo.readthedocs.io/en/latest/software/installation.html#linux-or-macos),
-- [Windows or Python 2.7](https://gemseo.readthedocs.io/en/latest/software/installation.html#windows-or-python-2-7), with the full features (*[all]* at the end of the *pip* or *conda* installation line).
+- [Linux or MacOS](https://gemseo.readthedocs.io/en/stable/software/installation.html#linux-or-macos),
+- [Windows or Python 2.7](https://gemseo.readthedocs.io/en/stable/software/installation.html#windows-or-python-2-7), with the full features (*[all]* at the end of the *pip* or *conda* installation line).
 
 Then,
 install the Sphinx dependencies to compile the reST project: 
@@ -46,6 +42,7 @@ install the Sphinx dependencies to compile the reST project:
 conda activate n2pac
 conda install -c anaconda sphinx
 conda install -c conda-forge sphinx-gallery
+pip install furo [--user]
 ```
 
 ### 3. Fill in the names of authors

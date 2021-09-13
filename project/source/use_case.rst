@@ -298,18 +298,30 @@ Used standard units are:
      - kg
    * - second
      - s
-   * - minute
-     - m
    * - meter per second
      - m/s
-   * - feet per minut
-     - ft/min
    * - nots
      - kt
    * - Newton
      - N
    * - Dollar
      - $
+
+Usual units are:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Usual unit
+     - Symbol
+   * - minute
+     - min
+   * - feet
+     - ft
+   * - feet per minute
+     - ft/min
+   * - knot
+     - kt
 
 One may use specific converters provided by MARILib in the module **unit**
 to play between the units.

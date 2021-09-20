@@ -47,7 +47,7 @@ pip install furo [--user]
 
 ### 3. Fill in the names of authors
 
-Go to line 23 in **project/conf.py**:
+Go to line 23 in **project/source/conf.py**:
 
 ```python
 author = Author1, Author2 and Author3'

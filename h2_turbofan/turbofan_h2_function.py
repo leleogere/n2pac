@@ -355,7 +355,7 @@ def str_h2turbofan(techno, design, data):
             % unit.kt_mps(data["vapp"]),
             "Constraint, Vertical speed, MCL rating, TOC = %8.1f ft/min (must be >= 300 ft/min)"
             % unit.ftpmin_mps(data["vz_mcl"]),
-            "Constraint, Vertical speed, MCR rating, TOC = %8.1f ft/min (must be >= 300 ft/min)"
+            "Constraint, Vertical speed, MCR rating, TOC = %8.1f ft/min (must be >= 0 ft/min)"
             % unit.ftpmin_mps(data["vz_mcr"]),
             "Constraint, One Engine Inoperative climb path = %8.2f %% (must be >= 1.1%%)"
             % (data["oei_path"] * 100),
@@ -441,6 +441,7 @@ if __name__ == "__main__":
     mode = "eval"  # Can be "eval", "draw", "plr", "ds"
 
     data = fct_turbofan_h2(techno, design, mode)
+    print(data)
 
     print_data(techno, design, data)
 

@@ -1,0 +1,10 @@
+/.idea/.gitignore
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/n2pac.iml
+/.idea/vcs.xml
+*.pyc
+*.pkl
+*.json

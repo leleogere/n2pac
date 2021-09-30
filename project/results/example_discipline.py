@@ -1,3 +1,7 @@
+"""
+Example discipline
+==================
+"""
 from discipline import H2TurboFan
 
 discipline = H2TurboFan()

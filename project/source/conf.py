@@ -16,6 +16,9 @@
 
 
 # -- Project information -----------------------------------------------------
+from pathlib import Path
+
+from sphinx_gallery.sorting import ExampleTitleSortKey
 
 project = "N2PAC project"
 copyright = "2021, Matthias De Lozzo"
@@ -34,8 +37,9 @@ extensions = [
 sphinx_gallery_conf = {
     "examples_dirs": ["../results"],  # path to your example scripts
     "gallery_dirs": ["results"],  # path to where to save gallery generated output
+    'within_subsection_order': ExampleTitleSortKey,
+    'default_thumb_file': Path(__file__).parent / "_static/aeroplane.png"
 }
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 

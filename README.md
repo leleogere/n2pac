@@ -1,4 +1,9 @@
-﻿# The N2PAC project
+# Notes
+School project based on https://gitlab.com/MatthiasDeLozzo/n2pac
+
+------
+
+# The N2PAC project
 
 N2PAC is a Python-based academic project proposed by Matthias De Lozzo and Thierry Druot
 in the frame of the course **"Design of experiments and metamodels"**
